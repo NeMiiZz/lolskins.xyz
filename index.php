@@ -1,4 +1,4 @@
-<! DOCTYPE html>
+<!-- <! DOCTYPE html>
 
 <?php $test = "this is a php string."; ?>
 
@@ -24,3 +24,5 @@
 		</div>
 	</body>
 </html>
+-->
+

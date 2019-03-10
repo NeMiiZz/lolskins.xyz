@@ -16,7 +16,7 @@ $(document).ready( function() {
         // get the champion icon
         $("#lol-champion-icon").html("<img src='/data/dragonhead/6.24.1/img/champion/"+championName+".png'></img>")
         $("#lol-champion-name").html(championName);
-        $("#lol-champion-desc").html("<p>"+championDesc+"</p>")
+        $("#lol-champion-desc").html("<p>"+championDesc+"</p>");
         $.post("/data/dragonhead/6.24.1/data/en_GB/profileicon.json")
         .done(function(response) {
         
