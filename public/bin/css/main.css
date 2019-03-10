@@ -1,3 +1,69 @@
+body {
+	background-color: #fff4ee;
+}
+
+#lol-search-box {
+	width: 50%;
+	padding: 10px;
+	text-align: center;
+	font-weight: 300;
+	font-size: 20px;
+	border-radius: 41px;
+	border: 1px solid #9ec5e3;
+}
+
+#lol-search-box:focus {
+	outline: none;
+}
+
 .lol-jumbo-container {
 	
 }
+
+.lol-jumbo-background-image {
+	background-image: url(/data/dragonhead/img/champion/splash/Garen_2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+	height: 300px;
+}
+
+.lol-home-title {
+	color: white;
+	text-shadow: 0px 0px 4px black;
+}
+
+.lol-champion-pic {
+	display: block;
+	padding: 10px;
+	margin: 0 auto;
+	width: 100px;
+	height: 100px;
+	border-radius: 100px;
+}
+
+.lol-champion-pic:hover {
+	box-shadow: 1px 1px 1px black;
+}
+
+.champ-pic-link:hover {
+	box-shadow: 1px 1px 1px black;
+}
+
+/* Fading animation */
+.fade {
+	-webkit-animation-name: fade;
+	-webkit-animation-duration: 1.5s;
+	animation-name: fade;
+	animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+	from {opacity: .4} 
+	to {opacity: 1}
+  }
+  
+  @keyframes fade {
+	from {opacity: .4} 
+	to {opacity: 1}
+  }
