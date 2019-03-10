@@ -5,7 +5,7 @@
 <! DOCTYPE html>
 <?php if ($maintenance) { ?>
 	<html>
-		<body style='background-image:url(/public/images/maintenance.png);background-repeat: no-repeat;background-size: cover;' class="maintanence">
+		<body style='background-image:url(/public/images/maintenance.jpg);background-repeat: no-repeat;background-size: cover;' class="maintanence">
 		</body>
 	</html>
 <?php } else { ?>
